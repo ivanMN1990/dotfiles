@@ -21,6 +21,8 @@ brew "pyenv"
 brew "pyenv-virtualenv"
 brew "python"
 brew "ruby"
+brew "groovy"
+brew "node"
 
 # programming and ops tools
 brew "awscli"
@@ -28,6 +30,7 @@ brew "ctags"
 brew "dive"
 brew "docker-clean"
 brew "git"
+brew "diff-so-fancy"
 
 # encryption-related
 brew "gnupg"
@@ -48,6 +51,7 @@ brew "tmux"
 brew "tree"
 brew "watch"
 brew "wget"
+brew "telnet"
 
 # DBs
 brew "postgresql"
@@ -58,4 +62,13 @@ brew "libpng"
 brew "libyaml"
 brew "readline"
 brew "zlib"
+
+#casks - But i don't know how to install these
+brew "google-chrome"		
+brew "intellij-idea"		
+brew "jetbrains-toolbox"	
+brew "ngrok"			
+brew "spotify"			
+brew "sublime-text"		
+brew "zoomus"
 
