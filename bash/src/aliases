@@ -30,3 +30,7 @@ alias dm='docker-machine'
 
 alias cx='convox'
 
+# Those ones are placed on ~/.oh-my-zsh/custom/aliases.sh
+alias ls='exa'
+alias cat='bat'
+
