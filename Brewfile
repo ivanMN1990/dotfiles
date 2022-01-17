@@ -8,6 +8,9 @@ brew "pinentry"
 brew "shellcheck"
 brew "zsh"
 brew "zsh-completions"
+brew "exa"
+brew "bat"
+brew "oh-my-zsh"
 
 # the editor!
 brew "neovim"
