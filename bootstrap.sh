@@ -14,9 +14,10 @@ ln -s ~/dotfiles/inputrc            ~/.inputrc
 ln -s ~/dotfiles/zshrc              ~/.zshrc
 
 # install brew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-brew update
+(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/ivan/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # install brewfile dependencies
 brew bundle install
